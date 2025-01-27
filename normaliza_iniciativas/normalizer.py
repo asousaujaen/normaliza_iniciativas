@@ -2,7 +2,7 @@ from unidecode import unidecode
 
 from re import sub
 
-SUBSTITUTIONS = r'[\(\.\)\'\n\-\\#;:/\[\]]'
+SUBSTITUTIONS = r'[\(\.\)\'\n\-\\#;:/\[\]|]'
 
 
 def clear_string(data, substitute=''):
