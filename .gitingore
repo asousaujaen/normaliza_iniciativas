@@ -1,3 +1,7 @@
+# Ignora arquivos baixados na pasta data
+data/*.json
+data/*.xlsx
+
 # Created by https://www.toptal.com/developers/gitignore/api/python,venv,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,venv,linux
 
